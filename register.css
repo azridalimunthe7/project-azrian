@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+@media screen and (max-width: 768px) {
+  .input select {
+    width: 78pxpx;
+    height: 48px;
+    margin-top: -48px;
+    margin-left: -28%;
+  }
+}
+
+.navbar {
+  width: 1, 440px;
+  height: 80px;
+  border-bottom: 1px;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-right: 120px;
+  padding-bottom: 12px;
+  padding-left: 120px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar img {
+  margin-left: 3px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h3 {
+  width: 297px;
+  height: 35px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  color: rgba(34, 35, 37, 1);
+}
+
+.title p {
+  width: 525px;
+  height: 22px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: rgba(51, 51, 51, 0.68);
+  margin-top: -20px;
+  margin-left: -40px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input label {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: rgba(51, 51, 51, 1);
+  margin-bottom: 5px;
+  display: inline-block;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  margin-left: -33%;
+  margin-top: 20px;
+}
+
+.input label::after {
+  content: "*";
+  color: red;
+}
+
+.input input {
+  width: 518px;
+  height: 48px;
+}
+
+.input p {
+  width: 125px;
+  height: 22px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0, 2px;
+  margin-right: -31%;
+}
+
+.btn1 {
+  width: 518px;
+  height: 42px;
+  border-radius: 10px;
+  background-color: rgba(62, 207, 76, 1);
+  border: none;
+  margin-top: 20px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0, 2px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.btn2 {
+  width: 518px;
+  height: 42px;
+  border-radius: 10px;
+  background-color: rgba(226, 252, 217, 0.8);
+  border: none;
+  margin-top: 20px;
+  color: rgba(62, 207, 76, 1);
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0, 2px;
+}
+
+.frame {
+  margin-left: -31%;
+  width: 50px;
+  height: 22px;
+  padding-right: 8px;
+  padding-left: 8px;
+  gap: 10px;
+}
+
+.btn3 {
+  width: 518px;
+  height: 42px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(241, 235, 235, 0.322);
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0, 2px;
+  color: rgba(74, 80, 92, 1);
+}
+
+.google {
+  margin-top: -33px;
+  margin-left: -210px;
+}
+
+#bendera {
+  margin-left: -40%;
+}
+
+.input select {
+  width: 112.67px;
+  height: 48px;
+  margin-top: -48px;
+  margin-left: -28%;
+}
+
+#tel {
+  width: 337.33px;
+  height: 48px;
+  margin-top: -50px;
+  margin-left: 15%;
+}
+
+.eye-off {
+  margin-top: -40px;
+  margin-right: -35%;
+}
+
+#confirm-password {
+  margin-left: -28%;
+}
+
+.input p {
+  width: 125px;
+  height: 22px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0, 2px;
+  margin-right: -31%;
+}
